@@ -4,7 +4,7 @@ console.log("EJEMPLOS DE TIPOS PRIMITIVOS");
 // DEBEMOS IR LLAMANDO A CADA FUNCIÓN PARA PROBAR CADA TIPO DE DATOS
 // DEBEMOS CREAR DOS EJEMPLOS MÁS PARA CADA CASO
 function ejemplosDeTiposPrimitivos(){
-
+	ejemploUndefined();
 }
 
 function ejemploString(){
@@ -23,7 +23,7 @@ function ejemploNumber(){
 	let num3 = 123e5;console.log(num3)
 	let num4 = 123e-5;console.log(num4)
 	let num5 = 999999999999999; console.log(num5)
-	let num6 = 9999999999999999;console.log(num6)
+	let num6 = 9999999999999999;console.log(num6) // 16 dígitos es el límite
 }
 
 function ejemploBoolean(){
@@ -58,5 +58,7 @@ function ejemploUndefined(){
 	console.log(undefined);
 	let variableNoDefinida;
 	console.log(variableNoDefinida);
-	//console.log(noExisteVariable) => ¿QUE PASARIA?
+	//console.log(noExisteVariable) => ¿QUE PASARIA? Da error porque la variable no está declarada.
 }
+
+ejemplosDeTiposPrimitivos();
